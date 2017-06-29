@@ -10,5 +10,8 @@
     "sanitizer": "latest",
     "socket.io": "latest",
     "underscore": "latest"
+  },
+  "scripts": {
+    "export": "cd tools/maps && python export.py client && python export.py server && cd ../.."
   }
 }

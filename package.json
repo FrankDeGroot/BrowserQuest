@@ -15,6 +15,6 @@
     "http-server": "latest"
   },
   "scripts": {
-    "export": "cd tools/maps && python export.py client && python export.py server && cd ../.."
+    "export": "cd tools/maps && python ./export.py && cd ../.."
   }
 }
